@@ -39,6 +39,9 @@ textarea,
 input {
   font-family: "Montserrat", sans-serif; }
 
+.ui-widget {
+  font-family: "Montserrat", sans-serif; }
+
 label {
   cursor: pointer; }
   label:focus, label:hover, label:active {
@@ -99,7 +102,7 @@ select, input, textarea {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1260px;
+  max-width: 1360px;
   padding: 0 30px;
   margin: 0 auto;
   position: relative; }
@@ -219,3 +222,264 @@ select, input, textarea {
 canvas {
   width: 100%;
   height: 100%; }
+
+footer {
+  background: #000000;
+  padding: 20px 0px; }
+
+.footer--section {
+  margin-top: 40px; }
+  .footer--section .moreInfo {
+    background: #ffffff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+    .footer--section .moreInfo:hover {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      background: #e71b1b;
+      color: #ffffff; }
+
+header {
+  height: 180px;
+  background: #000000; }
+
+.social a {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #ffffff;
+  margin-right: 15px; }
+  .social a svg {
+    width: 40px;
+    height: 40px; }
+  .social a path {
+    fill: #010002;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+  .social a.fb:hover path {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    fill: #3b5998; }
+  .social a.vk:hover path {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    fill: #4c75a3; }
+  .social a.yt:hover path {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    fill: #FF0000; }
+  .social a.inst:hover path {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    fill: #C13584; }
+
+.phone {
+  color: #ffffff;
+  font-size: 28px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+  .phone:hover {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    color: #e71b1b; }
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-bottom: 30px; }
+
+.our--works {
+  margin: 60px 0px; }
+  .our--works .our--work__item {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 28%;
+    height: 220px; }
+    .our--works .our--work__item iframe {
+      width: -webkit-calc(100% + 5px);
+      width: calc(100% + 5px);
+      height: -webkit-calc(100% + 5px);
+      height: calc(100% + 5px); }
+    .our--works .our--work__item:nth-of-type(3n) {
+      margin-right: 0px; }
+    .our--works .our--work__item:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      border: 4px solid #e71b1b;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+    .our--works .our--work__item:nth-of-type(1)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      left: -15px;
+      top: -15px;
+      -webkit-transform: rotate(2deg);
+          -ms-transform: rotate(2deg);
+              transform: rotate(2deg); }
+    .our--works .our--work__item:nth-of-type(2)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      left: -15px;
+      bottom: -15px;
+      -webkit-transform: rotate(-2deg);
+          -ms-transform: rotate(-2deg);
+              transform: rotate(-2deg); }
+    .our--works .our--work__item:nth-of-type(3)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      right: -15px;
+      top: -15px;
+      -webkit-transform: rotate(2deg);
+          -ms-transform: rotate(2deg);
+              transform: rotate(2deg); }
+    .our--works .our--work__item:nth-of-type(4)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      left: -15px;
+      top: -15px;
+      -webkit-transform: rotate(2deg);
+          -ms-transform: rotate(2deg);
+              transform: rotate(2deg); }
+    .our--works .our--work__item:nth-of-type(5)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      right: -15px;
+      bottom: -15px;
+      -webkit-transform: rotate(2deg);
+          -ms-transform: rotate(2deg);
+              transform: rotate(2deg); }
+    .our--works .our--work__item:nth-of-type(6)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      right: -15px;
+      top: -15px;
+      -webkit-transform: rotate(2deg);
+          -ms-transform: rotate(2deg);
+              transform: rotate(2deg); }
+    .our--works .our--work__item:nth-of-type(7)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      left: -15px;
+      bottom: -15px;
+      -webkit-transform: rotate(-2deg);
+          -ms-transform: rotate(-2deg);
+              transform: rotate(-2deg); }
+    .our--works .our--work__item:nth-of-type(8)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      left: -15px;
+      top: -15px;
+      -webkit-transform: rotate(2deg);
+          -ms-transform: rotate(2deg);
+              transform: rotate(2deg); }
+    .our--works .our--work__item:nth-of-type(9)::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      right: -15px;
+      bottom: -15px;
+      -webkit-transform: rotate(-2deg);
+          -ms-transform: rotate(-2deg);
+              transform: rotate(-2deg); }
+    .our--works .our--work__item:hover::after {
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      -webkit-transform: initial;
+          -ms-transform: initial;
+              transform: initial;
+      top: 0;
+      left: 0; }
+
+.keep-it {
+  background: #000000;
+  padding: 30px 0px; }
+  .keep-it .keep-it__text {
+    color: #ffffff;
+    font-size: 24px; }
+
+.sendOrder {
+  background: #e71b1b;
+  padding: 15px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+  .sendOrder:hover {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: #ffffff;
+    color: #e71b1b; }
+
+.faq {
+  padding: 30px 0px; }
+  .faq .sendOrder {
+    margin: 0 auto;
+    margin-top: 30px; }
+    .faq .sendOrder:hover {
+      background: #000000;
+      color: #e71b1b; }
+
+.ui-state-active {
+  border: 1px solid #e71b1b;
+  background: #e71b1b; }
+
+.ui-accordion-content-active {
+  font-weight: 500;
+  color: #000;
+  border-color: #e71b1b; }
+
+.ui-widget {
+  font-size: 18px; }
+
+.reviews {
+  padding: 30px 0px;
+  background: #000000; }
+  .reviews .title {
+    color: #ffffff; }
+  .reviews .reviews--item {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    color: #ffffff; }
+    .reviews .reviews--item .review--info {
+      padding: 0px 20px; }
+    .reviews .reviews--item .review--name {
+      margin-top: 15px;
+      font-weight: 700; }

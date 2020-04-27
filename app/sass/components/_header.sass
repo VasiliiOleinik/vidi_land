@@ -1,0 +1,44 @@
+header
+  height: 180px
+  background: $black
+.social
+  & a
+    width: 50px
+    height: 50px
+    border-radius: 50%
+    background: #ffffff
+    margin-right: 15px
+    & svg
+      width: 40px
+      height: 40px
+    & path
+      fill:#010002
+      transition: $transition
+    &.fb:hover
+      & path
+        transition: $transition
+        fill: #3b5998
+    &.vk:hover
+      & path
+        transition: $transition
+        fill: #4c75a3
+    &.yt:hover
+      & path
+        transition: $transition
+        fill: #FF0000
+    &.inst:hover
+      & path
+        transition: $transition
+        fill: #C13584
+.phone
+  color: #ffffff
+  font-size: 28px
+  transition: $transition
+  &:hover
+    transition: $transition
+    color: $red
+.title
+  text-align: center
+  text-transform: uppercase
+  font-size: 36px
+  margin-bottom: 30px
