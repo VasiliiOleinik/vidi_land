@@ -74,7 +74,8 @@
       left: 0
 .keep-it
   background: $black
-  padding: 30px 0px
+  margin: 60px 0px
+  padding: 20px 0px
   & .keep-it__text
     color: #ffffff
     font-size: 24px
@@ -91,7 +92,7 @@
     background: #ffffff
     color: $red
 .faq
-  padding: 30px 0px
+  margin: 60px 0px
   & .sendOrder
     margin: 0 auto
     margin-top: 30px
@@ -120,3 +121,81 @@
     & .review--name
       margin-top: 15px
       font-weight: 700
+.result
+  margin: 60px 0px
+  & .result--text
+    font-size: 18px
+    margin-bottom: 15px
+.main--section
+  margin: 60px 0px
+  position: relative
+  &::before
+    content: url(../img/decor1.png)
+    position: absolute
+    left: 0
+    top: -60px
+    z-index: -1
+  & .main--title
+    margin-bottom: 30px
+  & .main--list
+    margin-bottom: 20px
+    font-size: 18px
+    & li
+      margin-bottom: 10px
+  & .main--text
+    font-size: 18px
+    margin-bottom: 20px
+  & .mainSendOrder
+    background: $red
+    padding: 30px 60px
+    color: #ffffff
+    font-weight: 700
+    text-transform: uppercase
+    font-size: 36px
+    position: relative
+    transition: $transition
+    &::before
+      content: ''
+      width: 50px
+      height: 50px
+      border-left: 10px solid #e71b1b
+      border-bottom: 10px solid #e71b1b
+      display: block
+      position: absolute
+      bottom: -30px
+      left: -30px
+      transition: $transition
+    &::after
+      content: ''
+      width: 50px
+      height: 50px
+      border-right: 10px solid #e71b1b
+      border-top: 10px solid #e71b1b
+      display: block
+      position: absolute
+      top: -30px
+      right: -30px
+      transition: $transition
+    &:hover
+      transition: $transition
+      background: $black
+      color: $red
+      &::after
+        top: 0
+        right: 0
+        transition: $transition
+      &::before
+        bottom: 0
+        left: 0
+        transition: $transition
+  & .main--video
+    padding-left: 80px
+    & iframe
+      width: 100%
+      height: 300px
+    & p
+      margin-top: 50px
+      text-align: center
+.divider
+  background: $black
+  height: 35px

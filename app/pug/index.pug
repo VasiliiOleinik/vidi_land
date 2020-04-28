@@ -1,34 +1,61 @@
 extends blocks/_layout
 append content
   main.main
+    section.main--section
+      .box
+        .col-50.d-flex.col
+          h1(class="main--title") Мы наполним ваши соц.сети оригинальным видео-контентом!
+          ul(class="main--list")
+            li • ролики для ютуб-канала
+            li • видео-креативы для рекламы в Facebook
+            li • сториз в Инстаграм
+            li • видео-обложки для группы ВК
+            li • промо-ролики в ленту
+          p(class="main--text") Оставьте заявку прямо сейчас, и мы бесплатно проконсультируем вас  по видео-маркетингу, разработаем эффективную стратегию продвижения и контентный план!!
+          button(class="mainSendOrder" data-fancybox data-src="#order--form") Оставить заявку
+        .col-50.d-flex.col.main--video
+          .d-flex.justify-center
+            iframe(src="https://www.youtube.com/embed/u0ZadsmJ31g" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          p(class="main--text") Вы получите яркий и динамичный  ролик, который гарантированно привлечет внимание подписчиков и увеличит ваш личный доход!
+    .divider
     .box.col
       section.our--works.d-flex.col
         h3(class="title") наши работы
         .works--list.d-flex.flex-wrap.space-between
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/UbZTPhCJcxc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/IngExBJPLUE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/HdU7Fi1hMYU" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/fOh0JgB6pvE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/CqYw38ZF2Ws" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/dQzoREM4xo0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/ubonk4DW29Q" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/GwfeUG3UX8E" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .our--work__item
-            iframe(src="https://www.youtube.com/embed/Wtn9XQtLiJE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(src="https://www.youtube.com/embed/GwfeUG3UX8E" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     section.keep-it
       .box
         .col-50
           p(class="keep-it__text") Внедряйте в работу видео-маркетинг, пока конкуренты не забрали ваших подписчиков!
         .col-50.ai-center.justify-center.d-flex
           button(type="button" class="sendOrder") Оставить заявку
+    section.result
+      .box.col
+        h3(class="title") Видеоконтент – это ядерное топливо для SMM, которое приносит взрывной результат!!!
+        .result--content.d-flex
+          .col-50.d-flex.col
+            p(class="result--text") По данным HubSpot, 55% пользователей просматривают видео в социальных сетях до конца. Это лучший показатель среди всех типов контента.
+            p(class="result--text") По статистике видеоплатформы Brightcove, короткие видео в соцсетях набирают на 1200% больше репостов, чем посты с текстом и картинками. 
+          .col-50.d-flex.col
+            p(class="result--text") Посмотрите, какие результаты по охвату получают компании, внедряя видео-контент:
+            .ct-chart.ct-perfect-fourth(style="height: 200px;")
     section.reviews
       .box.col
         h3(class="title") Отзывы
