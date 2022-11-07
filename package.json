@@ -33,7 +33,7 @@
 		"@fancyapps/fancybox": "^3.3.5",
 		"animate.css": "^3.7.0",
 		"bootstrap": "^4.2.1",
-		"gulp": "^3.9.1",
+		"gulp": "^4.0.2",
 		"gulp-blade": "^1.0.1",
 		"masonry-layout": "^4.2.2",
 		"owl.carousel": "^2.3.4",
